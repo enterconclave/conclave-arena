@@ -3,12 +3,13 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-04T04:00:00.000Z",
+  "updatedAt": "2026-11-04T05:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": 0,
+    "returnBps": 107,
     "equity": [
-      1
+      1,
+      1.0107
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -17,28 +18,30 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": 0,
+      "returnBps": -15,
       "maxDrawdownBps": 0,
       "sharpe": null,
-      "trades": 0,
+      "trades": 1,
       "breaches": 0,
       "halted": false,
       "equity": [
-        1
+        1,
+        0.9985
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": 0,
+      "returnBps": -15,
       "maxDrawdownBps": 0,
       "sharpe": null,
-      "trades": 0,
+      "trades": 1,
       "breaches": 0,
       "halted": false,
       "equity": [
-        1
+        1,
+        0.9985
       ]
     },
     {
@@ -52,6 +55,7 @@
       "breaches": 0,
       "halted": false,
       "equity": [
+        1,
         1
       ]
     },
@@ -59,14 +63,15 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": 0,
+      "returnBps": -15,
       "maxDrawdownBps": 0,
       "sharpe": null,
-      "trades": 0,
+      "trades": 1,
       "breaches": 0,
       "halted": false,
       "equity": [
-        1
+        1,
+        0.9985
       ]
     },
     {
@@ -80,6 +85,7 @@
       "breaches": 0,
       "halted": false,
       "equity": [
+        1,
         1
       ]
     }
