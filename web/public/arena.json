@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-04T20:00:00.000Z",
+  "updatedAt": "2026-11-04T21:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": 749,
+    "returnBps": 735,
     "equity": [
       1,
       1.0107,
@@ -24,7 +24,8 @@
       1.0752,
       1.0783,
       1.0735,
-      1.0749
+      1.0749,
+      1.0735
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -33,7 +34,7 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": 300,
+      "returnBps": 288,
       "maxDrawdownBps": 59,
       "sharpe": null,
       "trades": 8,
@@ -56,14 +57,15 @@
         1.0244,
         1.0258,
         1.0244,
-        1.03
+        1.03,
+        1.0288
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": 302,
+      "returnBps": 299,
       "maxDrawdownBps": 29,
       "sharpe": null,
       "trades": 2,
@@ -86,7 +88,8 @@
         1.0253,
         1.0268,
         1.0258,
-        1.0302
+        1.0302,
+        1.0299
       ]
     },
     {
@@ -116,6 +119,7 @@
         1,
         1,
         1,
+        1,
         1
       ]
     },
@@ -123,7 +127,7 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": 302,
+      "returnBps": 299,
       "maxDrawdownBps": 29,
       "sharpe": null,
       "trades": 2,
@@ -146,14 +150,15 @@
         1.0253,
         1.0268,
         1.0258,
-        1.0302
+        1.0302,
+        1.0299
       ]
     },
     {
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": 199,
+      "returnBps": 187,
       "maxDrawdownBps": 56,
       "sharpe": null,
       "trades": 3,
@@ -176,7 +181,8 @@
         1.0143,
         1.0157,
         1.0143,
-        1.0199
+        1.0199,
+        1.0187
       ]
     }
   ]
