@@ -1,0 +1,10 @@
+{
+  "name": "conclave-arena",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "backtest": "node src/run.js --backtest 30",
+    "tick": "node src/run.js --tick",
+    "test": "node --test src/*.test.js"
+  }
+}
