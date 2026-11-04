@@ -3,13 +3,14 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-04T05:00:00.000Z",
+  "updatedAt": "2026-11-04T06:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": 107,
+    "returnBps": 179,
     "equity": [
       1,
-      1.0107
+      1.0107,
+      1.0179
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -18,30 +19,32 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -15,
-      "maxDrawdownBps": 0,
+      "returnBps": -24,
+      "maxDrawdownBps": 9,
       "sharpe": null,
-      "trades": 1,
+      "trades": 2,
       "breaches": 0,
       "halted": false,
       "equity": [
         1,
-        0.9985
+        0.9985,
+        0.9976
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -15,
-      "maxDrawdownBps": 0,
+      "returnBps": -12,
+      "maxDrawdownBps": 9,
       "sharpe": null,
-      "trades": 1,
+      "trades": 2,
       "breaches": 0,
       "halted": false,
       "equity": [
         1,
-        0.9985
+        0.9985,
+        0.9988
       ]
     },
     {
@@ -56,6 +59,7 @@
       "halted": false,
       "equity": [
         1,
+        1,
         1
       ]
     },
@@ -63,15 +67,16 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -15,
-      "maxDrawdownBps": 0,
+      "returnBps": -12,
+      "maxDrawdownBps": 9,
       "sharpe": null,
-      "trades": 1,
+      "trades": 2,
       "breaches": 0,
       "halted": false,
       "equity": [
         1,
-        0.9985
+        0.9985,
+        0.9988
       ]
     },
     {
@@ -85,6 +90,7 @@
       "breaches": 0,
       "halted": false,
       "equity": [
+        1,
         1,
         1
       ]
