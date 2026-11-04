@@ -1,8 +1,8 @@
-# Advances the live Arena every hour and commits the new leaderboard.
+# Advances the live Arena (checks every 15 min, adds each finished hour) and commits the new leaderboard.
 # The season started when this repo went live; agents/data/state.json carries it hour to hour.
 name: arena
 on:
-  schedule: [{ cron: "5 * * * *" }]
+  schedule: [{ cron: "*/15 * * * *" }]
   workflow_dispatch:
 permissions: { contents: write }
 concurrency: { group: arena, cancel-in-progress: false }
