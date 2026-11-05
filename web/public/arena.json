@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-05T04:00:00.000Z",
+  "updatedAt": "2026-11-05T05:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": 769,
+    "returnBps": 754,
     "equity": [
       1,
       1.0107,
@@ -32,7 +32,8 @@
       1.0717,
       1.0771,
       1.08,
-      1.0769
+      1.0769,
+      1.0754
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -72,6 +73,7 @@
         1.0303,
         1.0301,
         1.0332,
+        1.0335,
         1.0335
       ]
     },
@@ -79,7 +81,7 @@
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": 318,
+      "returnBps": 317,
       "maxDrawdownBps": 44,
       "sharpe": null,
       "trades": 2,
@@ -110,7 +112,8 @@
         1.0303,
         1.0298,
         1.031,
-        1.0318
+        1.0318,
+        1.0317
       ]
     },
     {
@@ -148,6 +151,7 @@
         1,
         1,
         1,
+        1,
         1
       ]
     },
@@ -155,7 +159,7 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": 318,
+      "returnBps": 317,
       "maxDrawdownBps": 44,
       "sharpe": null,
       "trades": 2,
@@ -186,7 +190,8 @@
         1.0303,
         1.0298,
         1.031,
-        1.0318
+        1.0318,
+        1.0317
       ]
     },
     {
@@ -224,6 +229,7 @@
         1.0202,
         1.0201,
         1.0231,
+        1.0234,
         1.0234
       ]
     }
