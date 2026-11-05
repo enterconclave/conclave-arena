@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-05T19:00:00.000Z",
+  "updatedAt": "2026-11-05T20:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -41,
+    "returnBps": -14,
     "equity": [
       1,
       1.0107,
@@ -47,7 +47,8 @@
       1.0048,
       1.0013,
       0.9983,
-      0.9959
+      0.9959,
+      0.9986
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -99,6 +100,7 @@
         1.022,
         1,
         0.9712,
+        0.9717,
         0.9717,
         0.9717,
         0.9717,
@@ -155,6 +157,7 @@
         1.0041,
         1.0041,
         1.0041,
+        1.0041,
         1.0041
       ]
     },
@@ -162,8 +165,8 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -460,
-      "maxDrawdownBps": 460,
+      "returnBps": -480,
+      "maxDrawdownBps": 480,
       "sharpe": null,
       "trades": 3,
       "breaches": 0,
@@ -208,15 +211,16 @@
         0.9602,
         0.9573,
         0.956,
-        0.954
+        0.954,
+        0.952
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -140,
-      "maxDrawdownBps": 470,
+      "returnBps": -158,
+      "maxDrawdownBps": 487,
       "sharpe": null,
       "trades": 4,
       "breaches": 0,
@@ -261,7 +265,8 @@
         0.9894,
         0.9878,
         0.9871,
-        0.986
+        0.986,
+        0.9842
       ]
     },
     {
@@ -310,6 +315,7 @@
         1.0127,
         1.0119,
         0.9899,
+        0.9735,
         0.9735,
         0.9735,
         0.9735,
