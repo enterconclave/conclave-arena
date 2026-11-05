@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-05T06:00:00.000Z",
+  "updatedAt": "2026-11-05T08:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": 780,
+    "returnBps": 759,
     "equity": [
       1,
       1.0107,
@@ -34,7 +34,9 @@
       1.08,
       1.0769,
       1.0754,
-      1.078
+      1.078,
+      1.0719,
+      1.0759
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -43,7 +45,7 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": 378,
+      "returnBps": 376,
       "maxDrawdownBps": 59,
       "sharpe": null,
       "trades": 8,
@@ -76,14 +78,16 @@
         1.0332,
         1.0335,
         1.0335,
-        1.0378
+        1.0378,
+        1.0336,
+        1.0376
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": 346,
+      "returnBps": 334,
       "maxDrawdownBps": 44,
       "sharpe": null,
       "trades": 2,
@@ -116,7 +120,9 @@
         1.031,
         1.0318,
         1.0317,
-        1.0346
+        1.0346,
+        1.0311,
+        1.0334
       ]
     },
     {
@@ -156,6 +162,8 @@
         1,
         1,
         1,
+        1,
+        1,
         1
       ]
     },
@@ -163,7 +171,7 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": 346,
+      "returnBps": 334,
       "maxDrawdownBps": 44,
       "sharpe": null,
       "trades": 2,
@@ -196,14 +204,16 @@
         1.031,
         1.0318,
         1.0317,
-        1.0346
+        1.0346,
+        1.0311,
+        1.0334
       ]
     },
     {
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": 277,
+      "returnBps": 275,
       "maxDrawdownBps": 56,
       "sharpe": null,
       "trades": 3,
@@ -236,7 +246,9 @@
         1.0231,
         1.0234,
         1.0234,
-        1.0277
+        1.0277,
+        1.0235,
+        1.0275
       ]
     }
   ]
