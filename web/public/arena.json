@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-08T09:00:00.000Z",
+  "updatedAt": "2026-11-08T10:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -81,
+    "returnBps": -86,
     "equity": [
       1,
       1.0107,
@@ -109,7 +109,8 @@
       0.9913,
       0.9919,
       0.9921,
-      0.9919
+      0.9919,
+      0.9914
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -120,7 +121,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -283,
       "maxDrawdownBps": 637,
-      "sharpe": -5.63,
+      "sharpe": -5.61,
       "trades": 11,
       "breaches": 0,
       "halted": false,
@@ -226,6 +227,7 @@
         0.9717,
         0.9717,
         0.9717,
+        0.9717,
         0.9717
       ]
     },
@@ -235,7 +237,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -248,
       "maxDrawdownBps": 575,
-      "sharpe": -8.48,
+      "sharpe": -8.44,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -341,6 +343,7 @@
         0.9752,
         0.9752,
         0.9752,
+        0.9752,
         0.9752
       ]
     },
@@ -348,10 +351,10 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -477,
+      "returnBps": -487,
       "maxDrawdownBps": 592,
-      "sharpe": -13.05,
-      "trades": 9,
+      "sharpe": -13.29,
+      "trades": 10,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -456,16 +459,17 @@
         0.9528,
         0.9534,
         0.9525,
-        0.9523
+        0.9523,
+        0.9513
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -165,
+      "returnBps": -168,
       "maxDrawdownBps": 540,
-      "sharpe": -4.3,
+      "sharpe": -4.36,
       "trades": 8,
       "breaches": 0,
       "halted": false,
@@ -571,7 +575,8 @@
         0.984,
         0.9849,
         0.9839,
-        0.9835
+        0.9835,
+        0.9832
       ]
     },
     {
@@ -580,7 +585,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -265,
       "maxDrawdownBps": 528,
-      "sharpe": -6.82,
+      "sharpe": -6.78,
       "trades": 5,
       "breaches": 0,
       "halted": false,
@@ -620,6 +625,7 @@
         1.0127,
         1.0119,
         0.9899,
+        0.9735,
         0.9735,
         0.9735,
         0.9735,
