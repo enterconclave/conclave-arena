@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-09T20:00:00.000Z",
+  "updatedAt": "2026-11-09T21:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -566,
+    "returnBps": -547,
     "equity": [
       1,
       1.0179,
@@ -76,7 +76,8 @@
       0.9482,
       0.9462,
       0.9421,
-      0.9434
+      0.9434,
+      0.9453
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -87,7 +88,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -388,
       "maxDrawdownBps": 738,
-      "sharpe": -6.73,
+      "sharpe": -6.7,
       "trades": 18,
       "breaches": 0,
       "halted": false,
@@ -160,6 +161,7 @@
         0.9612,
         0.9612,
         0.9612,
+        0.9612,
         0.9612
       ]
     },
@@ -167,10 +169,10 @@
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -368,
+      "returnBps": -383,
       "maxDrawdownBps": 691,
-      "sharpe": -10.85,
-      "trades": 32,
+      "sharpe": -11.24,
+      "trades": 33,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -242,17 +244,18 @@
         0.9632,
         0.9632,
         0.9632,
-        0.9632
+        0.9632,
+        0.9617
       ]
     },
     {
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -452,
+      "returnBps": -457,
       "maxDrawdownBps": 592,
-      "sharpe": -9.51,
-      "trades": 13,
+      "sharpe": -9.57,
+      "trades": 14,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -324,16 +327,17 @@
         0.9566,
         0.9564,
         0.9555,
-        0.9548
+        0.9548,
+        0.9543
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -169,
+      "returnBps": -164,
       "maxDrawdownBps": 576,
-      "sharpe": -3.53,
+      "sharpe": -3.4,
       "trades": 10,
       "breaches": 0,
       "halted": false,
@@ -406,7 +410,8 @@
         0.9841,
         0.985,
         0.9841,
-        0.9831
+        0.9831,
+        0.9836
       ]
     },
     {
@@ -415,7 +420,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -265,
       "maxDrawdownBps": 528,
-      "sharpe": -5.88,
+      "sharpe": -5.86,
       "trades": 5,
       "breaches": 0,
       "halted": false,
@@ -438,6 +443,7 @@
         1.0242,
         1.0127,
         0.9899,
+        0.9735,
         0.9735,
         0.9735,
         0.9735,
