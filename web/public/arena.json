@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-09T09:00:00.000Z",
+  "updatedAt": "2026-11-09T10:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -655,
+    "returnBps": -673,
     "equity": [
       1,
       1.0179,
@@ -71,7 +71,7 @@
       0.9511,
       0.9393,
       0.9282,
-      0.9345
+      0.9327
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -82,7 +82,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -388,
       "maxDrawdownBps": 738,
-      "sharpe": -7.02,
+      "sharpe": -6.99,
       "trades": 18,
       "breaches": 0,
       "halted": false,
@@ -159,7 +159,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -368,
       "maxDrawdownBps": 691,
-      "sharpe": -11.32,
+      "sharpe": -11.28,
       "trades": 32,
       "breaches": 0,
       "halted": false,
@@ -234,9 +234,9 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -563,
+      "returnBps": -583,
       "maxDrawdownBps": 592,
-      "sharpe": -13.47,
+      "sharpe": -13.88,
       "trades": 13,
       "breaches": 0,
       "halted": false,
@@ -304,16 +304,16 @@
         0.9566,
         0.9531,
         0.9481,
-        0.9437
+        0.9417
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -234,
-      "maxDrawdownBps": 560,
-      "sharpe": -5.33,
+      "returnBps": -249,
+      "maxDrawdownBps": 576,
+      "sharpe": -5.66,
       "trades": 9,
       "breaches": 0,
       "halted": false,
@@ -381,7 +381,7 @@
         0.9907,
         0.9867,
         0.981,
-        0.9766
+        0.9751
       ]
     },
     {
@@ -390,7 +390,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -265,
       "maxDrawdownBps": 528,
-      "sharpe": -6.13,
+      "sharpe": -6.1,
       "trades": 5,
       "breaches": 0,
       "halted": false,
