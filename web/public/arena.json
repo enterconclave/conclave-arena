@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-12T23:00:00.000Z",
+  "updatedAt": "2026-11-13T00:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -1050,
+    "returnBps": -1043,
     "equity": [
       1,
       1.023,
@@ -79,7 +79,7 @@
       0.8944,
       0.8932,
       0.892,
-      0.895
+      0.8957
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -90,7 +90,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -477,
       "maxDrawdownBps": 824,
-      "sharpe": -6.67,
+      "sharpe": -6.65,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -175,7 +175,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -773,
       "maxDrawdownBps": 1083,
-      "sharpe": -17.16,
+      "sharpe": -17.12,
       "trades": 51,
       "breaches": 0,
       "halted": false,
@@ -258,9 +258,9 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -627,
+      "returnBps": -628,
       "maxDrawdownBps": 659,
-      "sharpe": -9.75,
+      "sharpe": -9.74,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -336,7 +336,7 @@
         0.9368,
         0.9367,
         0.9355,
-        0.9373
+        0.9372
       ]
     },
     {
@@ -430,7 +430,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -265,
       "maxDrawdownBps": 528,
-      "sharpe": -4.72,
+      "sharpe": -4.71,
       "trades": 5,
       "breaches": 0,
       "halted": false,
