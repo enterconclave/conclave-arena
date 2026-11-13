@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-13T11:00:00.000Z",
+  "updatedAt": "2026-11-13T12:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -1305,
+    "returnBps": -1307,
     "equity": [
       1,
       1.023,
@@ -83,7 +83,7 @@
       0.8568,
       0.8581,
       0.8672,
-      0.8695
+      0.8693
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -94,7 +94,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -477,
       "maxDrawdownBps": 824,
-      "sharpe": -6.48,
+      "sharpe": -6.47,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -183,7 +183,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -773,
       "maxDrawdownBps": 1083,
-      "sharpe": -16.67,
+      "sharpe": -16.63,
       "trades": 51,
       "breaches": 0,
       "halted": false,
@@ -270,9 +270,9 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -607,
+      "returnBps": -608,
       "maxDrawdownBps": 766,
-      "sharpe": -8.44,
+      "sharpe": -8.43,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -352,7 +352,7 @@
         0.9234,
         0.9305,
         0.9371,
-        0.9393
+        0.9392
       ]
     },
     {
@@ -361,7 +361,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -360,
       "maxDrawdownBps": 803,
-      "sharpe": -5.21,
+      "sharpe": -5.2,
       "trades": 13,
       "breaches": 0,
       "halted": false,
@@ -450,7 +450,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -265,
       "maxDrawdownBps": 528,
-      "sharpe": -4.59,
+      "sharpe": -4.58,
       "trades": 5,
       "breaches": 0,
       "halted": false,
