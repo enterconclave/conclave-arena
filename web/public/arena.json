@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-16T22:00:00.000Z",
+  "updatedAt": "2026-11-16T23:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -1867,
+    "returnBps": -1899,
     "equity": [
       1,
       1.0299,
@@ -70,7 +70,7 @@
       0.8027,
       0.8078,
       0.8096,
-      0.8133
+      0.8101
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -155,10 +155,10 @@
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1225,
-      "maxDrawdownBps": 1506,
-      "sharpe": -20.16,
-      "trades": 71,
+      "returnBps": -1240,
+      "maxDrawdownBps": 1521,
+      "sharpe": -20.38,
+      "trades": 72,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -224,7 +224,7 @@
         0.8887,
         0.8873,
         0.8785,
-        0.8775
+        0.876
       ]
     },
     {
@@ -233,7 +233,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -1301,
       "maxDrawdownBps": 1424,
-      "sharpe": -12.23,
+      "sharpe": -12.21,
       "trades": 31,
       "breaches": 0,
       "halted": false,
@@ -309,7 +309,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1091,
       "maxDrawdownBps": 1401,
-      "sharpe": -11.74,
+      "sharpe": -11.72,
       "trades": 19,
       "breaches": 0,
       "halted": false,
