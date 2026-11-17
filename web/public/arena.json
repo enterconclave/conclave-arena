@@ -3,7 +3,7 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-17T04:00:00.000Z",
+  "updatedAt": "2026-11-17T05:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
     "returnBps": -1861,
@@ -80,9 +80,9 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -499,
-      "maxDrawdownBps": 833,
-      "sharpe": -5.75,
+      "returnBps": -522,
+      "maxDrawdownBps": 867,
+      "sharpe": -6.01,
       "trades": 25,
       "breaches": 0,
       "halted": false,
@@ -150,16 +150,16 @@
         0.9523,
         0.9523,
         0.9523,
-        0.9501
+        0.9478
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1273,
-      "maxDrawdownBps": 1560,
-      "sharpe": -20.68,
+      "returnBps": -1298,
+      "maxDrawdownBps": 1590,
+      "sharpe": -21.05,
       "trades": 77,
       "breaches": 0,
       "halted": false,
@@ -227,7 +227,7 @@
         0.8873,
         0.8785,
         0.8734,
-        0.8727
+        0.8702
       ]
     },
     {
@@ -236,7 +236,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -1301,
       "maxDrawdownBps": 1424,
-      "sharpe": -12.11,
+      "sharpe": -12.09,
       "trades": 31,
       "breaches": 0,
       "halted": false,
@@ -311,9 +311,9 @@
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -1042,
+      "returnBps": -1043,
       "maxDrawdownBps": 1401,
-      "sharpe": -10.99,
+      "sharpe": -10.98,
       "trades": 21,
       "breaches": 0,
       "halted": false,
@@ -381,16 +381,16 @@
         0.8933,
         0.8903,
         0.8904,
-        0.8958
+        0.8957
       ]
     },
     {
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": -275,
-      "maxDrawdownBps": 528,
-      "sharpe": -4.02,
+      "returnBps": -290,
+      "maxDrawdownBps": 552,
+      "sharpe": -4.25,
       "trades": 6,
       "breaches": 0,
       "halted": false,
@@ -458,7 +458,7 @@
         0.9735,
         0.9735,
         0.9735,
-        0.9725
+        0.971
       ]
     }
   ]
