@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-19T03:00:00.000Z",
+  "updatedAt": "2026-11-19T05:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2073,
+    "returnBps": -2019,
     "equity": [
       1,
       1.0325,
@@ -68,7 +68,8 @@
       0.8004,
       0.7759,
       0.7828,
-      0.7927
+      0.7986,
+      0.7981
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -77,9 +78,9 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -566,
+      "returnBps": -542,
       "maxDrawdownBps": 985,
-      "sharpe": -5.47,
+      "sharpe": -5.2,
       "trades": 42,
       "breaches": 0,
       "halted": false,
@@ -144,7 +145,8 @@
         0.9503,
         0.9384,
         0.939,
-        0.9434
+        0.9462,
+        0.9458
       ]
     },
     {
@@ -153,7 +155,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -1130,
       "maxDrawdownBps": 1644,
-      "sharpe": -14.53,
+      "sharpe": -14.49,
       "trades": 79,
       "breaches": 0,
       "halted": false,
@@ -218,6 +220,7 @@
         0.8994,
         0.888,
         0.887,
+        0.887,
         0.887
       ]
     },
@@ -225,10 +228,10 @@
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -1393,
+      "returnBps": -1378,
       "maxDrawdownBps": 1439,
-      "sharpe": -11.9,
-      "trades": 33,
+      "sharpe": -11.71,
+      "trades": 34,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -292,16 +295,17 @@
         0.8699,
         0.858,
         0.8594,
-        0.8607
+        0.8632,
+        0.8622
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -1103,
+      "returnBps": -1087,
       "maxDrawdownBps": 1454,
-      "sharpe": -10.08,
+      "sharpe": -9.89,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -366,16 +370,17 @@
         0.9032,
         0.8845,
         0.8871,
-        0.8897
+        0.8917,
+        0.8913
       ]
     },
     {
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": -155,
+      "returnBps": -142,
       "maxDrawdownBps": 584,
-      "sharpe": -1.94,
+      "sharpe": -1.76,
       "trades": 6,
       "breaches": 0,
       "halted": false,
@@ -440,7 +445,8 @@
         0.9884,
         0.9816,
         0.9819,
-        0.9845
+        0.986,
+        0.9858
       ]
     }
   ]
