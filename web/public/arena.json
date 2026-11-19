@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-19T08:00:00.000Z",
+  "updatedAt": "2026-11-19T10:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -1998,
+    "returnBps": -1977,
     "equity": [
       1,
       1.0325,
@@ -69,7 +69,7 @@
       0.7759,
       0.7828,
       0.7986,
-      0.8002
+      0.8023
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -78,10 +78,10 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -597,
+      "returnBps": -578,
       "maxDrawdownBps": 985,
-      "sharpe": -5.7,
-      "trades": 43,
+      "sharpe": -5.49,
+      "trades": 44,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -146,17 +146,17 @@
         0.9384,
         0.939,
         0.9462,
-        0.9403
+        0.9422
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1179,
+      "returnBps": -1192,
       "maxDrawdownBps": 1644,
-      "sharpe": -15.03,
-      "trades": 81,
+      "sharpe": -15.16,
+      "trades": 82,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -221,17 +221,17 @@
         0.888,
         0.887,
         0.887,
-        0.8821
+        0.8808
       ]
     },
     {
       "id": "tide",
       "name": "Tide",
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
-      "returnBps": -1376,
+      "returnBps": -1379,
       "maxDrawdownBps": 1439,
       "sharpe": -11.64,
-      "trades": 34,
+      "trades": 35,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -296,16 +296,16 @@
         0.858,
         0.8594,
         0.8632,
-        0.8624
+        0.8621
       ]
     },
     {
       "id": "ballast",
       "name": "Ballast",
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
-      "returnBps": -1094,
+      "returnBps": -1078,
       "maxDrawdownBps": 1454,
-      "sharpe": -9.91,
+      "sharpe": -9.72,
       "trades": 23,
       "breaches": 0,
       "halted": false,
@@ -371,16 +371,16 @@
         0.8845,
         0.8871,
         0.8917,
-        0.8906
+        0.8922
       ]
     },
     {
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": -165,
+      "returnBps": -158,
       "maxDrawdownBps": 584,
-      "sharpe": -2.05,
+      "sharpe": -1.96,
       "trades": 6,
       "breaches": 0,
       "halted": false,
@@ -446,7 +446,7 @@
         0.9816,
         0.9819,
         0.986,
-        0.9835
+        0.9842
       ]
     }
   ]
