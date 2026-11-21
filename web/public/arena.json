@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-21T15:00:00.000Z",
+  "updatedAt": "2026-11-21T16:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2548,
+    "returnBps": -2564,
     "equity": [
       1,
       1.0324,
@@ -68,7 +68,7 @@
       0.7165,
       0.7172,
       0.7253,
-      0.7452
+      0.7436
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -79,7 +79,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -885,
       "maxDrawdownBps": 1216,
-      "sharpe": -7.63,
+      "sharpe": -7.62,
       "trades": 53,
       "breaches": 0,
       "halted": false,
@@ -151,10 +151,10 @@
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1521,
-      "maxDrawdownBps": 1792,
-      "sharpe": -17.49,
-      "trades": 93,
+      "returnBps": -1546,
+      "maxDrawdownBps": 1817,
+      "sharpe": -17.75,
+      "trades": 94,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -218,7 +218,7 @@
         0.8492,
         0.8492,
         0.8492,
-        0.8479
+        0.8454
       ]
     },
     {
@@ -227,7 +227,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -13.63,
+      "sharpe": -13.61,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -301,7 +301,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -13.21,
+      "sharpe": -13.19,
       "trades": 26,
       "breaches": 1,
       "halted": true,
@@ -375,7 +375,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -281,
       "maxDrawdownBps": 584,
-      "sharpe": -3.28,
+      "sharpe": -3.27,
       "trades": 7,
       "breaches": 0,
       "halted": false,
