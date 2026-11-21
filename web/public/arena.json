@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-21T17:00:00.000Z",
+  "updatedAt": "2026-11-21T18:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2528,
+    "returnBps": -2538,
     "equity": [
       1,
       1.0324,
@@ -69,7 +69,7 @@
       0.7172,
       0.7253,
       0.7436,
-      0.7472
+      0.7462
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -80,7 +80,7 @@
       "strategy": "Trend: holds assets trading above their 72h average",
       "returnBps": -885,
       "maxDrawdownBps": 1216,
-      "sharpe": -7.61,
+      "sharpe": -7.6,
       "trades": 53,
       "breaches": 0,
       "halted": false,
@@ -153,10 +153,10 @@
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1554,
-      "maxDrawdownBps": 1824,
-      "sharpe": -17.83,
-      "trades": 95,
+      "returnBps": -1553,
+      "maxDrawdownBps": 1833,
+      "sharpe": -17.79,
+      "trades": 96,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -221,7 +221,7 @@
         0.8492,
         0.8492,
         0.8454,
-        0.8446
+        0.8447
       ]
     },
     {
@@ -230,7 +230,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -13.6,
+      "sharpe": -13.58,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -305,7 +305,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -13.18,
+      "sharpe": -13.16,
       "trades": 26,
       "breaches": 1,
       "halted": true,
@@ -380,7 +380,7 @@
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
       "returnBps": -281,
       "maxDrawdownBps": 584,
-      "sharpe": -3.27,
+      "sharpe": -3.26,
       "trades": 7,
       "breaches": 0,
       "halted": false,
