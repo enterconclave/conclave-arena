@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-22T11:00:00.000Z",
+  "updatedAt": "2026-11-22T12:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2414,
+    "returnBps": -2394,
     "equity": [
       1,
       1.0324,
@@ -71,7 +71,7 @@
       0.7436,
       0.7464,
       0.737,
-      0.7586
+      0.7606
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -80,9 +80,9 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -904,
+      "returnBps": -874,
       "maxDrawdownBps": 1223,
-      "sharpe": -7.62,
+      "sharpe": -7.33,
       "trades": 55,
       "breaches": 0,
       "halted": false,
@@ -150,16 +150,16 @@
         0.9115,
         0.9115,
         0.9115,
-        0.9096
+        0.9126
       ]
     },
     {
       "id": "ember",
       "name": "Ember",
       "strategy": "Momentum: rotates into the strongest 24h performer",
-      "returnBps": -1683,
+      "returnBps": -1659,
       "maxDrawdownBps": 1958,
-      "sharpe": -18.58,
+      "sharpe": -18.22,
       "trades": 102,
       "breaches": 0,
       "halted": false,
@@ -227,7 +227,7 @@
         0.8454,
         0.8457,
         0.8362,
-        0.8317
+        0.8341
       ]
     },
     {
@@ -236,7 +236,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -13.31,
+      "sharpe": -13.3,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -313,7 +313,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -12.9,
+      "sharpe": -12.89,
       "trades": 26,
       "breaches": 1,
       "halted": true,
