@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-23T21:00:00.000Z",
+  "updatedAt": "2026-11-23T22:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2348,
+    "returnBps": -2367,
     "equity": [
       1,
       1.0324,
@@ -76,7 +76,7 @@
       0.7685,
       0.7643,
       0.7735,
-      0.7652
+      0.7633
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -85,9 +85,9 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -1223,
+      "returnBps": -1238,
       "maxDrawdownBps": 1571,
-      "sharpe": -9.17,
+      "sharpe": -9.27,
       "trades": 61,
       "breaches": 0,
       "halted": false,
@@ -160,7 +160,7 @@
         0.9067,
         0.9022,
         0.8783,
-        0.8777
+        0.8762
       ]
     },
     {
@@ -169,7 +169,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -1739,
       "maxDrawdownBps": 2015,
-      "sharpe": -18.36,
+      "sharpe": -18.34,
       "trades": 105,
       "breaches": 1,
       "halted": true,
@@ -251,7 +251,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -12.82,
+      "sharpe": -12.8,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -333,7 +333,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -12.42,
+      "sharpe": -12.41,
       "trades": 26,
       "breaches": 1,
       "halted": true,
@@ -413,9 +413,9 @@
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": -597,
+      "returnBps": -613,
       "maxDrawdownBps": 882,
-      "sharpe": -5.86,
+      "sharpe": -6.01,
       "trades": 10,
       "breaches": 0,
       "halted": false,
@@ -488,7 +488,7 @@
         0.9731,
         0.9669,
         0.941,
-        0.9403
+        0.9387
       ]
     }
   ]
