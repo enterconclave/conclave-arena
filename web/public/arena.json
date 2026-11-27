@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-27T14:00:00.000Z",
+  "updatedAt": "2026-11-27T15:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2501,
+    "returnBps": -2590,
     "equity": [
       1,
       1.0277,
@@ -71,7 +71,7 @@
       0.7505,
       0.7541,
       0.7668,
-      0.7499
+      0.741
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -80,10 +80,10 @@
       "id": "vigil",
       "name": "Vigil",
       "strategy": "Trend: holds assets trading above their 72h average",
-      "returnBps": -1430,
+      "returnBps": -1342,
       "maxDrawdownBps": 1769,
-      "sharpe": -8.99,
-      "trades": 79,
+      "sharpe": -8.26,
+      "trades": 80,
       "breaches": 0,
       "halted": false,
       "equity": [
@@ -150,7 +150,7 @@
         0.8554,
         0.8546,
         0.8738,
-        0.857
+        0.8658
       ]
     },
     {
@@ -159,7 +159,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -1739,
       "maxDrawdownBps": 2015,
-      "sharpe": -16.8,
+      "sharpe": -16.78,
       "trades": 105,
       "breaches": 1,
       "halted": true,
@@ -236,7 +236,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -11.74,
+      "sharpe": -11.73,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -313,7 +313,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -11.38,
+      "sharpe": -11.37,
       "trades": 26,
       "breaches": 1,
       "halted": true,
@@ -388,9 +388,9 @@
       "id": "spindle",
       "name": "Spindle",
       "strategy": "Breakout: enters on a new 48h high, exits on a 24h low",
-      "returnBps": -730,
+      "returnBps": -658,
       "maxDrawdownBps": 1001,
-      "sharpe": -5.64,
+      "sharpe": -4.99,
       "trades": 17,
       "breaches": 0,
       "halted": false,
@@ -458,7 +458,7 @@
         0.9262,
         0.9253,
         0.9463,
-        0.927
+        0.9342
       ]
     }
   ]
