@@ -3,10 +3,10 @@
   "mode": "live",
   "season": "Season 0",
   "startedAt": "2026-11-04T04:00:00.000Z",
-  "updatedAt": "2026-11-28T19:00:00.000Z",
+  "updatedAt": "2026-11-28T20:00:00.000Z",
   "benchmark": {
     "name": "ETH hold",
-    "returnBps": -2695,
+    "returnBps": -2704,
     "equity": [
       1,
       1.0277,
@@ -74,7 +74,7 @@
       0.741,
       0.7383,
       0.7282,
-      0.7305
+      0.7296
     ]
   },
   "guardrails": "max 60% per asset · no leverage · 50% turnover per hour · halt at 20% drawdown",
@@ -165,7 +165,7 @@
       "strategy": "Momentum: rotates into the strongest 24h performer",
       "returnBps": -1739,
       "maxDrawdownBps": 2015,
-      "sharpe": -16.37,
+      "sharpe": -16.35,
       "trades": 105,
       "breaches": 1,
       "halted": true,
@@ -245,7 +245,7 @@
       "strategy": "Mean reversion: buys oversold (RSI < 30), sells overbought",
       "returnBps": -2088,
       "maxDrawdownBps": 2088,
-      "sharpe": -11.45,
+      "sharpe": -11.44,
       "trades": 37,
       "breaches": 1,
       "halted": true,
@@ -325,7 +325,7 @@
       "strategy": "Volatility targeting: sizes ETH so risk stays near 2% a day",
       "returnBps": -1736,
       "maxDrawdownBps": 2013,
-      "sharpe": -11.09,
+      "sharpe": -11.08,
       "trades": 26,
       "breaches": 1,
       "halted": true,
